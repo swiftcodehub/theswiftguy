@@ -10,7 +10,9 @@ function getDateTime(time: number) {
   <ul class="blog-list">
     <li class="blog-entry" v-for="post of posts">
       <article>
-        <a :href="post.url"><img :src="post.image" :alt="post.title"></a>
+        <div class="child1">
+          <a :href="post.url"><img :src="post.image" :alt="post.title"></a>
+        </div>
         <div>
           <time :datetime="getDateTime(post.date.time)">{{
             post.date.string
@@ -36,9 +38,16 @@ function getDateTime(time: number) {
   }
 }
 @media (min-width: 768px) {
+  article {
+    display: flex;
+  }
   img {
-    padding-bottom: 10px;
-    max-width: 70%;
+    padding-right: 20px;
+    padding-bottom: 50px;
+  }
+  .child1 {
+    width: 500px;
+    align-self: center;
   }
 }
 .blog-list {

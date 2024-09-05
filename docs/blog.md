@@ -1,4 +1,5 @@
 ---
+layout: home
 sidebar: false
 editLink: false
 outline: false
@@ -8,6 +9,8 @@ outline: false
 import BlogIndex from './.vitepress/theme/components/BlogIndex.vue'
 </script>
 
-# Blog Posts
+<br/>
+
+# <center>Blog Posts</center>
 
 <BlogIndex/>
