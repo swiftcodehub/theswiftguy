@@ -6,7 +6,9 @@ interface Post {
   date: {
     time: number
     string: string
-  }
+  },
+  description: string
+  image: string
 }
 
 declare const data: Post[]
@@ -17,14 +19,19 @@ export default createContentLoader('blog/*.md', {
   transform(raw): Post[] {
     return raw
       .map(({ url, frontmatter }) => ({
-        title: frontmatter.head.find((e) => e[1].property === 'og:title')[1]
-          .content,
+        title: getSpecificData('og:title', frontmatter),
         url,
-        date: formatDate(frontmatter.date)
+        date: formatDate(frontmatter.date),
+        description: getSpecificData('og:description', frontmatter),
+        image: getSpecificData('og:image', frontmatter)
       }))
       .sort((a, b) => b.date.time - a.date.time)
   },
 })
+
+function getSpecificData(name: string, frontmatter: Record<string, any>): string {
+  return frontmatter.head.find((e) => e[1].property === name)[1].content
+}
 
 function formatDate(raw: string): Post['date'] {
   const date = new Date(raw)
