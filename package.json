@@ -1,0 +1,30 @@
+{
+  "name": "theswiftguy",
+  "version": "1.0.0",
+  "description": "Learn SwiftUI and UIKit",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsra0ne/theswiftguy.git"
+  },
+  "keywords": [
+    "swift",
+    "swiftui",
+    "uikit"
+  ],
+  "author": "tsra0ne",
+  "license": "MIT",
+  "homepage": "https://github.com/tsra0ne/theswiftguy#readme",
+  "devDependencies": {
+    "vitepress": "^1.3.4"
+  },
+  "dependencies": {
+    "vue": "^3.4.38"
+  },
+  "type": "module"
+}
