@@ -9,6 +9,10 @@ export default defineConfig({
   lastUpdated: true,
   appearance: "dark",
 
+  sitemap: {
+    hostname: 'https://theswiftguy.in'
+  },
+
   markdown: {
     image: {
       lazyLoading: true

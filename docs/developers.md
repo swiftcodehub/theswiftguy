@@ -28,7 +28,7 @@ const members = [
       Developers
     </template>
     <template #lead>
-      Swift Code Hub is Maintained by
+      The Swift Guy is Maintained by
       team, some of whom have chosen to be featured below.
     </template>
   </VPTeamPageTitle>
