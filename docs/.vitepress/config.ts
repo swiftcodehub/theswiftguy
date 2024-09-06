@@ -5,7 +5,11 @@ export default defineConfig({
   title: "The Swift Guy",
   description: "Learn Swift, SwiftUI and UIKit",
   cleanUrls: true,
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { href: 'https://fonts.googleapis.com/css?family=Space+Mono:regular,italic,700,700italic', rel: 'stylesheet' }],
+    ['link', { href: 'https://fonts.googleapis.com/css?family=Space+Grotesk:regular,italic,700,700italic', rel: 'stylesheet' }]
+  ],
   lastUpdated: true,
   appearance: "dark",
 

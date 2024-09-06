@@ -43,9 +43,6 @@
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
-@import url(https://fonts.googleapis.com/css?family=Space+Mono:regular,italic,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Space+Grotesk:regular,italic,700,700italic);
-
 :root {
   /* Typography */
   --vp-font-family-base: "Space Grotesk", "Inter var experimental", "Inter var",
