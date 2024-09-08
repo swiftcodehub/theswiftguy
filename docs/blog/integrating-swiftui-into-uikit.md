@@ -16,7 +16,7 @@ head:
       content: https://theswiftguy.in/blog/integrating-swiftui-into-uikit
   - - meta
     - property: og:image
-      content: https://theswiftguy.in/integrating-swiftui-into-uikit.png
+      content: https://theswiftguy.in/images/integrating-swiftui-into-uikit.png
   - - meta
     - property: og:description
       content: In this section, we will demonstrate how to integrate SwiftUI views into UIKit using UIHostingController and adding SwiftUI views directly to UIKit components.
