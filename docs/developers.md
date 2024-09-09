@@ -16,7 +16,8 @@ const members = [
     title: 'Creator',
     links: [
       { icon: 'github', link: 'https://github.com/tsra0ne' },
-      { icon: 'twitter', link: 'https://twitter.com/tsra0ne' }
+      { icon: 'twitter', link: 'https://twitter.com/tsra0ne' },
+      { icon: 'linkedin', link: 'https://linkedin.com/in/tsra0ne' }
     ]
   },
 ]
