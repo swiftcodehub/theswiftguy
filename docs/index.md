@@ -18,6 +18,9 @@ hero:
       text: GitHub
       link: https://github.com/tsra0ne/theswiftguy
     - theme: alt
+      text: Leetcode
+      link: /leetcode
+    - theme: alt
       text: Developers
       link: /developers
 

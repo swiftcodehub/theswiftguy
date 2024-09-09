@@ -27,8 +27,22 @@ export default defineConfig({
     logo: '/logo.svg',
 
     nav: [
-      { text: 'Home', link: '/' }
+      { text: 'Home', link: '/' },
+      { text: 'Blog', link: '/blog' },
+      { text: 'Leetcode', link: '/leetcode' },
+      { text: 'Developers', link: '/developers' }
     ],
+
+    sidebar: {
+      '/leetcode/': [
+        {
+          text: 'Leetcode',
+          items: [
+            { text: '27. Remove Element', link: '/leetcode/27-remove-element' }
+          ]
+        }
+      ]
+    },
 
     footer: {
       message:
