@@ -9,8 +9,8 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
-    ['link', { href: 'https://fonts.googleapis.com/css?family=Space+Mono:regular,italic,700,700italic', rel: 'stylesheet' }],
-    ['link', { href: 'https://fonts.googleapis.com/css?family=Space+Grotesk:regular,italic,700,700italic', rel: 'stylesheet' }]
+    ['link', { href: 'https://fonts.googleapis.com/css?family=Space+Mono:regular,italic,700,700italic&display=swap', rel: 'stylesheet' }],
+    ['link', { href: 'https://fonts.googleapis.com/css?family=Space+Grotesk:regular,italic,700,700italic&display=swap', rel: 'stylesheet' }]
   ],
   lastUpdated: true,
   appearance: "dark",
