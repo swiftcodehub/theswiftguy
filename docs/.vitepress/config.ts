@@ -10,7 +10,8 @@ export default defineConfig({
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['link', { href: 'https://fonts.googleapis.com/css?family=Space+Mono:regular,italic,700,700italic&display=swap', rel: 'stylesheet' }],
-    ['link', { href: 'https://fonts.googleapis.com/css?family=Space+Grotesk:regular,italic,700,700italic&display=swap', rel: 'stylesheet' }]
+    ['link', { href: 'https://fonts.googleapis.com/css?family=Space+Grotesk:regular,italic,700,700italic&display=swap', rel: 'stylesheet' }],
+    ['script', { async: '', src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1416708536618524', crossorigin: 'anonymous'}]
   ],
   lastUpdated: true,
   appearance: "dark",
