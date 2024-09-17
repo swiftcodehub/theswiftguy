@@ -41,7 +41,7 @@ export default defineConfig({
         {
           text: 'Leetcode',
           items: [
-            { text: '27. Remove Element', link: '/leetcode/27-remove-element' }
+            { text: '128. Longest Consecutive Sequence', link: '/leetcode/128-longest-consecutive-sequence' }
           ]
         }
       ]
