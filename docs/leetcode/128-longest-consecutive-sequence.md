@@ -11,7 +11,7 @@ head:
       content: 128. Longest Consecutive Sequence
   - - meta
     - property: og:url
-      content: https://leetcode.com/problems/longest-consecutive-sequence/
+      content: https://theswiftguy.in/leetcode/128-longest-consecutive-sequence
 ---
 
 # 128. Longest Consecutive Sequence
