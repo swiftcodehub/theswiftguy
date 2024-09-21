@@ -50,9 +50,9 @@ export default defineConfig({
 
     footer: {
       message:
-        'Released under the <a href="https://github.com/tsr0ne/theswiftguy/blob/main/LICENSE">MIT License</a>. <a href="https://theswiftguy.in/legal/privacy-policy">Privacy Policy</a>',
+        'Released under the MIT License.',
       copyright:
-        'Copyright © 2024 <a href="https://github.com/tsra0ne/theswiftguy">The Swift Guy</a>',
+        'Copyright © 2024 The Swift Guy',
     },
 
     socialLinks: [
