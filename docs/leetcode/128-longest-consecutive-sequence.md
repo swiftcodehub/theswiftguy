@@ -18,9 +18,11 @@ head:
 
 <br/>
 
-Problem: [https://leetcode.com/problems/longest-consecutive-sequence/](https://leetcode.com/problems/longest-consecutive-sequence/)
+::: info
+**Problem:** [https://leetcode.com/problems/longest-consecutive-sequence/](https://leetcode.com/problems/longest-consecutive-sequence/)
 
-Complexity: O(n)
+**Complexity:** O(n)
+:::
 
 ```swift
 class Solution {

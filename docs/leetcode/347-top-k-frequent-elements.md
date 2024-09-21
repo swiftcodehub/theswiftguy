@@ -18,9 +18,11 @@ head:
 
 <br/>
 
-Problem: [https://leetcode.com/problems/top-k-frequent-elements/](https://leetcode.com/problems/top-k-frequent-elements/)
+::: info
+**Problem:** [https://leetcode.com/problems/top-k-frequent-elements/](https://leetcode.com/problems/top-k-frequent-elements/)
 
-Complexity: O(n)
+**Complexity:** O(n)
+:::
 
 ```swift
 class Solution {
