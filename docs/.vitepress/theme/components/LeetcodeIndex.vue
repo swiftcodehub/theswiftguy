@@ -18,10 +18,14 @@ import { data as posts } from './leetcode.data'
 .blog-list {
   list-style-type: none;
   padding: 0;
+  border-top: 1px solid var(--vp-c-divider);
 }
 .blog-entry {
-  /* margin-top: 3em; */
   border-bottom: 1px solid var(--vp-c-divider);
+  border-left: 1px solid var(--vp-c-divider);
+  border-right: 1px solid var(--vp-c-divider);
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .title {
   border: none;
