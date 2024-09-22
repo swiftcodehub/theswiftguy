@@ -41,6 +41,7 @@ export default defineConfig({
           text: 'Leetcode',
           items: [
             { text: '1. Two Sum', link: '/leetcode/1-two-sum' },
+            { text: '125-valid-palindrome', link: '/leetcode/125-valid-palindrome'},
             { text: '128. Longest Consecutive Sequence', link: '/leetcode/128-longest-consecutive-sequence' },
             { text: '217. Contains Duplicate', link: '/leetcode/217-contains-duplicate'},
             { text: '242. Valid Anagram', link: '/leetcode/242-valid-anagram' },
