@@ -41,6 +41,7 @@ export default defineConfig({
           text: 'Leetcode',
           items: [
             { text: '1. Two Sum', link: '/leetcode/1-two-sum' },
+            { text: '15. 3Sum', link: '/leetcode/15-3Sum' },
             { text: '125-valid-palindrome', link: '/leetcode/125-valid-palindrome'},
             { text: '128. Longest Consecutive Sequence', link: '/leetcode/128-longest-consecutive-sequence' },
             { text: '167. Two Sum II - Input Array Is Sorted', link: '/leetcode/167-two-sum-II-input-array-is-sorted' },
