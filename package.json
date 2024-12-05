@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsra0ne/theswiftguy.git"
+    "url": "git+https://github.com/swiftcodehub/theswiftguy.git"
   },
   "keywords": [
     "swift",
@@ -19,7 +19,7 @@
   ],
   "author": "tsra0ne",
   "license": "MIT",
-  "homepage": "https://github.com/tsra0ne/theswiftguy#readme",
+  "homepage": "https://github.com/swiftcodehub/theswiftguy#readme",
   "devDependencies": {
     "vitepress": "^1.3.4"
   },

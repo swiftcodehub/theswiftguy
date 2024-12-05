@@ -61,11 +61,11 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/tsra0ne/theswiftguy' }
+      { icon: 'github', link: 'https://github.com/swiftcodehub/theswiftguy' }
     ],
 
     editLink: {
-      pattern: 'https://github.com/tsra0ne/theswiftguy/blob/main/docs/:path',
+      pattern: 'https://github.com/swiftcodehub/theswiftguy/blob/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
 
