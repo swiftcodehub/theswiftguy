@@ -14,15 +14,15 @@ hero:
     - theme: brand
       text: Blog
       link: /blog
+    - theme: brand
+      text: SwiftUI
+      link: /swiftui/swiftui-resources
     - theme: alt
       text: GitHub
       link: https://github.com/swiftcodehub/theswiftguy
     - theme: alt
       text: Leetcode
       link: /leetcode
-    - theme: alt
-      text: Developers
-      link: /developers
 
 features:
   - icon: 🔍

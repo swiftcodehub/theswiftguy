@@ -31,6 +31,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Blog', link: '/blog' },
+      { text: 'SwiftUI', link: '/swiftui/swiftui-resources' },
       { text: 'Leetcode', link: '/leetcode' },
       { text: 'Developers', link: '/developers' }
     ],
