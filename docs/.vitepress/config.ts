@@ -31,7 +31,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Blog', link: '/blog' },
-      { text: 'SwiftUI', link: '/swiftui/swiftui-resources' },
+      { text: 'SnapKit', link: '/snapkit/what-is-snapkit-and-its-role-in-ios-development' },
       { text: 'Leetcode', link: '/leetcode' },
       { text: 'Developers', link: '/developers' }
     ],
@@ -49,6 +49,14 @@ export default defineConfig({
             { text: '217. Contains Duplicate', link: '/leetcode/217-contains-duplicate'},
             { text: '242. Valid Anagram', link: '/leetcode/242-valid-anagram' },
             { text: '347. Top K Frequent Elements', link: '/leetcode/347-top-k-frequent-elements' }
+          ]
+        }
+      ],
+      '/snapkit/': [
+        {
+          text: 'Understanding SnapKit Basics',
+          items: [
+            { text: 'What is SnapKit and its role in iOS development', link: '/snapkit/what-is-snapkit-and-its-role-in-ios-development' }
           ]
         }
       ]

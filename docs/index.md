@@ -15,8 +15,8 @@ hero:
       text: Blog
       link: /blog
     - theme: brand
-      text: SwiftUI
-      link: /swiftui/swiftui-resources
+      text: SnapKit
+      link: /snapkit/what-is-snapkit-and-its-role-in-ios-development
     - theme: alt
       text: GitHub
       link: https://github.com/swiftcodehub/theswiftguy
