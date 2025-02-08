@@ -31,7 +31,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Blog', link: '/blog' },
-      { text: 'SnapKit', link: '/snapkit/what-is-snapkit-and-its-role-in-ios-development' },
+      { text: 'SwiftUI', link: '/swiftui/swiftui-resources' },
       { text: 'Leetcode', link: '/leetcode' },
       { text: 'Developers', link: '/developers' }
     ],
